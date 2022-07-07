@@ -23,4 +23,4 @@ function waterLevel(percentage)
 }
 progressBar(50,100);
 progressBar1(95,100);
-waterLevel(100);
+waterLevel(80);
