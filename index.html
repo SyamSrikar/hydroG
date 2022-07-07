@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hydro Gravity</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head> 
+  <body>
+    <div class="main-wrapper">
+      <div class="main_box1">
+        <div class="box1">
+          <div class="box1_img">
+            <svg class="progress-circle" width="130px" height="130px" xmlns="http://www.w3.org/2000/svg">
+              <circle class="progress-circle-back"
+                    cx="65" cy="65" r="58"></circle>
+                <circle class="progress-circle-prog"
+                        cx="65" cy="65" r="58"></circle>
+            </svg>
+            <div>
+              <img src="images/wind.png" alt="">
+            </div>
+          </div>
+          <div class="box1_content">
+            <div>Flow Rate</div>
+            <div id="flow_val">0</div>
+            <div>LPM</div>
+          </div>
+        </div>
+        <div class="box_2">
+          <div class="box2_img">
+            <svg class="progress-circle1" width="130px" height="130px" xmlns="http://www.w3.org/2000/svg">
+              <circle class="progress-circle-back1"
+                    cx="65" cy="65" r="58"></circle>
+                <circle class="progress-circle-prog1"
+                        cx="65" cy="65" r="58"></circle>
+            </svg>
+            <div>
+              <img src="images/ph.png" alt="">
+            </div>
+          </div>
+          <div class="box2_content">
+            <div>Potential of</div>
+            <div>Hydrogen</div>
+            <div id="ph_val">0</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main_box2">
+        <div class="box_3">
+          <div class="image1">
+            <img src="images/bubbles.png" alt="" />
+          </div>
+          <div class="box3_content">
+            <div>Turbidity</div>
+            <div id="turb_val">0</div>
+          </div>
+          <div class="image2">
+            <img src="images/equaliser.png " alt="" />
+          </div>
+        </div>
+        <div class="box_4">
+          <div class="box4_img1">
+            <img src="images/humidity.png" alt="" />
+          </div>
+          <div class="box4_content">
+            <div>TDS</div>
+            <div id="tds_val">0</div>
+          </div>
+          <div class="box4_img2">
+            <img src="images/up-arrow.png" alt="" />
+            <img src="images/down-arrow.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="main_box3">
+        <div class="box_5">
+          <div class="content">Water level</div>
+          <div class="water_box">
+            <div class="hid-box">
+            </div>
+            <div class="water_level">%</div>
+          </div>
+        </div>
+        <div class="box_6">
+          <div class="box_6_1">
+            <div class="sos">SOS</div>
+            <div class="sms_img"><img src="images/sms.png" alt=""></div>
+            <div class="details">
+              <div class="text_area1">
+                <div class="heading">Name:</div>
+                <div class="name">Danish</div>
+              </div>
+              <div class="text_area2">
+                <div class="heading">Number:</div>
+                <div class="number">12345678</div>
+              </div>
+            </div>
+            <div class="options">
+              <div class="alarm">
+                <button id="alarm_button"><img src="images/alarm.png" alt=""></button>
+              </div>
+              <div class="pass">
+                <button id="pass_button">Pass</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="box_6_2">
+            <div class="heading">
+              Server Details
+            </div>
+            <div class="server_det">
+              <div class="ip_add">192.168.1.1</div>
+              <div class="port_no">5050</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
